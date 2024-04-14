@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+    <form action="/register" method="post">
+        <input type="email" placeholder="Email" autocomplete="off" autofocus name="email">
+        <input type="submit" value='Register'>
+    </form>
+{% endblock %}
